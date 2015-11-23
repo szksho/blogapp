@@ -1,0 +1,10 @@
+2015-11-23 05:39:41 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/application/current/app/Config/database.php, line 59]
+2015-11-23 05:39:41 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /
+Stack Trace:
+#0 /var/www/application/current/app/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/applic...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/applic...', 59, Array)
+#2 /var/www/application/current/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/applic...', 59, Array)
+#3 /var/www/application/current/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
